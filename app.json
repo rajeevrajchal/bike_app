@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "bike-service",
+    "owner": "rajeevrajchal12@gmail.com",
     "slug": "bike-service",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rajeevrajchal.bikeservice"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rajeevrajchal.bikeservice"
     },
     "web": {
       "favicon": "./assets/favicon.png"
